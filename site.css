@@ -11,6 +11,7 @@ body {
 
 /* Header */
   header {
+    position: relative;
     margin: 0;
     padding: 0;
     line-height: 0;
@@ -26,9 +27,9 @@ body {
   /* Desktop vertical menu */
   .nav-vertical {
     position: absolute;
-    top: 25%; 
+    bottom: calc(6px + 1rem);
     left: 2rem;
-    transform: translateY(-50%); /* centers vertically */
+    transform: none;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -36,6 +37,10 @@ body {
 
   .nav-vertical li {
     margin-bottom: 1rem;
+  }
+
+  .nav-vertical li:last-child { 
+    margin-bottom: 0;
   }
 
   .nav-vertical a {
@@ -51,11 +56,30 @@ body {
   
   
   /* Hide vertical menu on small screens */
-  @media (max-width: 768px) {
+  @media (max-width: 991.98px) {
     .nav-vertical {
       display: none;
     }
   }
+
+ /* Large screens (≥992px and <1200px): keep menu safely inside */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-vertical {
+    bottom: calc(6px + 0.75rem);
+    left: 1rem;
+  }
+  .nav-vertical .nav-link { font-size: 1rem; }
+}
+
+/* XL screens (≥1200px and <1400px): a bit more breathing room */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .nav-vertical { bottom: calc(6px + 1.25rem); }
+}
+
+/* XXL screens (≥1400px): most breathing room */
+@media (min-width: 1400px) {
+  .nav-vertical { bottom: calc(6px + 2rem); }
+}
 
   /* About section */
   /* About section wrapper: no background here */
