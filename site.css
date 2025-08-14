@@ -1,0 +1,105 @@
+/* Reset absolutely everything above the header */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #96db5a;
+    outline: 3px solid hotpink !important;
+  }
+
+/* Header */
+  header {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    border-bottom: 6px solid #3a6367;
+  }
+
+  .header-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Desktop vertical menu */
+  .nav-vertical {
+    position: absolute;
+    top: 25%; 
+    left: 2rem;
+    transform: translateY(-50%); /* centers vertically */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-vertical li {
+    margin-bottom: 1rem;
+  }
+
+  .nav-vertical a {
+    text-decoration: none;
+    color: #3a6367;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+
+  .nav-vertical a:hover {
+    color: #c2f6ff;
+  }
+  
+  
+  /* Hide vertical menu on small screens */
+  @media (max-width: 768px) {
+    .nav-vertical {
+      display: none;
+    }
+  }
+
+  /* About section */
+  /* About section wrapper: no background here */
+.about-section {
+    margin-top: 3rem;
+    position: relative;
+  }
+  
+  /* Image area holds the photo + overlay only */
+  .about-image {
+    position: relative;
+    height: 420px;
+    background: url('images/FoodForest.jpeg') center/cover no-repeat;
+    isolation: isolate;  
+  }
+  
+  /* Overlay the image area */
+  .about-image .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    z-index: 1;
+  }
+  
+  /* Text centered on top of overlay */
+  .about-content {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.6);
+    padding: 1rem;
+  }
+  
+  .about-section .btn-primary {
+    background-color: #ff994e;
+    border-color: #ff994e;
+  }
+  .about-section .btn-primary:hover {
+    background-color: #e67f33;
+    border-color: #e67f33;
+  }
+
+
+ 
