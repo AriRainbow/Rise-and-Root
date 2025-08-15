@@ -38,6 +38,51 @@
     </nav>
   </header>
 
+  <!-- CONTENT SECTIONS -->
+  <section class="container my-5">
+    <div class="row justify-content-center text-center mb-4">
+      <div class="col-lg-10">
+        <h2 class="display-5 fw-bold" style="color:#3a6367">Our Mission & Core Values</h2>
+        <p class="lead" style="color:#3a6367">Grow wild. Root deep. Rise together.</p>
+      </div>
+    </div>
+  
+    <div class="row g-4 mb-4">
+      <!-- MISSION -->
+      <div class="col-md-6">
+        <div class="p-4 h-100 rounded shadow-sm" style="background-color:#fbc858; border-left: 6px solid #3a6367;">
+          <h3 style="color:#3a6367">🌟 Our Mission</h3>
+          <p>
+            Rise & Root Collective offers free, inclusive, nature-based education for youth ages 6–17, nurturing lifelong connections to the earth, self, and community. Through hands-on outdoor learning, we empower young people of all backgrounds — with a focus on inclusion, access, and uplifting those often left out of mainstream programs — to grow confident, grounded, and resilient.
+          </p>
+        </div>
+      </div>
+  
+      <!-- VISION -->
+      <div class="col-md-6">
+        <div class="p-4 h-100 rounded shadow-sm" style="background-color:#fbc858; border-left: 6px solid #3a6367;">
+          <h3 style="color:#3a6367">🌳 Our Vision</h3>
+          <p>
+            A future where every young person has access to wild places, meaningful skills, and the freedom to be fully themselves — rooted in care, rising in courage.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- ABOUT SECTION -->
+<section id="about" class="about-section text-center mt-5">
+    <div class="about-image">
+      <div class="overlay"></div>
+      <div class="about-content">
+        <h1 class="display-4">Growing Roots for a Stronger Tomorrow</h1>
+        <p class="lead">From seed to canopy, we nurture connections between people and the planet.</p>
+        <a href="about.html" class="btn btn-primary btn-lg">Explore Our Work</a>
+      </div>
+    </div>
+  </section>
+
   <!-- OPTIONAL CAROUSEL -->
   <section class="container my-5">
     <div id="campCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -58,43 +103,13 @@
     </div>
   </section>
 
-  <!-- ABOUT SECTION -->
-<section id="about" class="about-section text-center mt-5">
-    <div class="about-image">
-      <div class="overlay"></div>
-      <div class="about-content">
-        <h1 class="display-4">Growing Roots for a Stronger Tomorrow</h1>
-        <p class="lead">From seed to canopy, we nurture connections between people and the planet.</p>
-        <a href="about.html" class="btn btn-primary btn-lg">Explore Our Work</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTENT SECTIONS -->
-  <section class="container my-5">
-    <div class="row">
-      <div class="col-md-4">
-        <h3>Our Mission</h3>
-        <p>Placeholder text here...</p>
-      </div>
-      <div class="col-md-4">
-        <h3>Programs</h3>
-        <p>Placeholder text here...</p>
-      </div>
-      <div class="col-md-4">
-        <h3>Get Involved</h3>
-        <p>Placeholder text here...</p>
-      </div>
-    </div>
-  </section>
-
  <!-- FOOTER -->
   <footer class="container-fluid footer-bg text-white">
     <div class="footer-inner">
   
       <!-- Left -->
       <div class="footer-left">
-        <img src="images/social-icon.svg" alt="Social Links" class="social-toggle-icon">
+        <img src="images/social-icon.svg" alt="Social Links" class="social-toggle-icon" data-bs-toggle="modal" data-bs-target="#socialModal">
       </div>
   
       <!-- Center -->
@@ -109,6 +124,23 @@
   
     </div>
   </footer>
+
+  <!-- Social Links Modal -->
+   <div class="modal fade" id="socialModal" tabindex="-1" aria-labelledby="socialModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <div class="modal-header">
+          <h5 class="modal-title" id="socialModalLabel">Follow Us</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <a href="https://instagram.com" target="_blank" class="d-block mb-2">Instagram</a>
+          <a href="https://facebook.com" target="_blank" class="d-block mb-2">Facebook</a>
+          <a href="https://youtube.com" target="_blank" class="d-block">YouTube</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

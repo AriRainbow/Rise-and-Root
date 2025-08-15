@@ -125,6 +125,19 @@ body {
     border-color: #e67f33;
   }
 
+  @media (max-width: 768px) {
+    .about-image {
+      height: auto;
+      padding: 3rem 1rem;
+    }
+  
+    .about-content {
+      position: static;
+      padding: 0;
+      transform: none;
+    }
+  }
+
   /* FOOTER */
 /* Outer footer container */
 footer {
