@@ -83,6 +83,12 @@ body {
 
 
 /* Mission section */
+.mission-values-section {
+  background-image: url('images/peachesBG.png'); /* adjust path if needed */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 /* Mission section cards */
 .card-inner {
