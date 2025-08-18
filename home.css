@@ -81,7 +81,73 @@ body {
   .nav-vertical { bottom: calc(6px + 2rem); }
 }
 
+
+/* Mission section */
+
+/* Mission section cards */
+.card-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  height: 100%;
+}
+
+/* Image Box */
+.label-box {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: top;
+  justify-content: left;
+}
+
+.card-label {
+  display: block; /* Removes inline spacing */
+  width: auto; /* Keeps original aspect ratio */
+  max-height: 300px; /* Prevents overflow */
+  margin: 0;
+  padding: 0;
+  object-fit: contain; /* Keep scaled */
+}
+
+.card-text-box {
+  background-color: rgba(201, 253, 6, 0.75);  /* Light green */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-left: 2rem;
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .card-inner {
+    flex-wrap: wrap;         /* Let contents wrap instead of switching to column */
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .label-box {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .card-label {
+    max-height: 120px;
+    width: auto;
+  }
+
+  .card-text-box {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    flex: 1;
+  }
+}
+
   /* About section */
+
   /* About section wrapper: no background here */
 .about-section {
     margin-top: 3rem;
