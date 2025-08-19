@@ -122,6 +122,7 @@
     <div id="campCarousel" class="carousel slide" data-bs-ride="carousel" aria-label="Camp activity photo slideshow">
       <div class="carousel-inner">
   
+    <!-- Replace AI Images Here -->
         <!-- 1: Wander & Wonder -->
         <div class="carousel-item active">
           <img src="images/slide-nature.png" class="d-block w-100" alt="Three children exploring a lush forest trail during camp">
@@ -176,6 +177,17 @@
       <button class="carousel-control-next" type="button" data-bs-target="#campCarousel" data-bs-slide="next" aria-label="Next slide">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
       </button>
+    </div>
+  </section>
+
+<!-- NATIVE PLANT API -->
+<section id="native-plant" class="container my-5">
+    <h2 class="text-center mb-4">🌱 Discover an Oklahoma Native Plant 🌱</h2>
+    <div id="plant-info" class="text-center p-4 border rounded shadow-sm bg-light">
+      <p>Loading plant data...</p>
+    </div>
+    <div class="text-center mt-3">
+      <button id="load-plant-btn" class="btn btn-success">Show Me Another</button>
     </div>
   </section>
 
@@ -259,5 +271,6 @@
   </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/native-plant-api.js" defer></script>
 </body>
 </html>

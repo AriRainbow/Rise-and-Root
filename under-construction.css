@@ -1,0 +1,51 @@
+/* UNDER CONSTRUCTION PAGE STYLES */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  /* Full-page static background */
+.under-construction-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/sprouting.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  /* Ensure menu sits above background */
+  header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  /* Position vertical nav */
+  .nav-vertical {
+    position: absolute;
+    top: 25%;
+    left: 2rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Mobile menu button visibility */
+  .navbar-toggler {
+    background-color: white;
+  }
+  
+  /* Match existing link style */
+  .nav-link {
+    color: #3a6367;
+    font-weight: 600;
+  }
