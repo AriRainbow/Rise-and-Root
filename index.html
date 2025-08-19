@@ -6,19 +6,21 @@
   <title>Rise and Root Collective</title>
   <meta name="description" content="Free, inclusive nature-based youth programs empowering kids and teens to connect with land, self, and community.">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="home.css">
 </head>
 <body>
 
-  <!-- HEADER -->
+<!-- HEADER -->
   <header>
     <img src="images/header.png" alt="Rise & Root Collective" class="header-image">
+    
     <!-- Desktop Vertical Menu-->
     <ul class="nav flex-column nav-vertical d-none d-lg-flex">
       <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
       <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
       <li class="nav-item"><a class="nav-link" href="programs.html">PROGRAMS</a></li>
-      <li class="nav-item"><a class="nav-link" href="involved.html">GET INVOLVED</a></li>
+      <li class="nav-item"><a class="nav-link" href="get-involved.html">GET INVOLVED</a></li>
     </ul>
 
     <!-- Mobile Hamburger Menu -->
@@ -38,14 +40,14 @@
             <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
             <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
             <li class="nav-item"><a class="nav-link" href="programs.html">PROGRAMS</a></li>
-            <li class="nav-item"><a class="nav-link" href="involved.html">GET INVOLVED</a></li>
+            <li class="nav-item"><a class="nav-link" href="get-involved.html">GET INVOLVED</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
-  <!-- CONTENT SECTIONS -->
+<!-- CONTENT SECTIONS -->
 
   <!-- Mission and Vision Cards -->
 <section class="mission-values-section py-5 pb-0 px-3">
@@ -103,7 +105,7 @@
   </section>
   
 
-  <!-- ABOUT SECTION -->
+<!-- ABOUT SECTION -->
 <section id="about" class="about-section text-center">
     <div class="about-image">
       <div class="overlay"></div>
@@ -115,17 +117,59 @@
     </div>
   </section>
 
-  <!-- OPTIONAL CAROUSEL -->
+<!-- CAMP CAROUSEL -->
   <section class="container my-5">
     <div id="campCarousel" class="carousel slide" data-bs-ride="carousel" aria-label="Camp activity photo slideshow">
       <div class="carousel-inner">
+  
+        <!-- 1: Wander & Wonder -->
         <div class="carousel-item active">
-          <img src="images/slide1.jpg" class="d-block w-100" alt="Nature scene">
+          <img src="images/slide-nature.png" class="d-block w-100" alt="Three children exploring a lush forest trail during camp">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Wander & Wonder</h5>
+            <p>Adventure begins here — guided hikes help campers build confidence and curiosity in the wild.</p>
+          </div>
         </div>
+  
+        <!-- 2: Nature-Based Arts & Crafts -->
         <div class="carousel-item">
-          <img src="images/slide2.jpg" class="d-block w-100" alt="Camp activities">
+          <img src="images/slide-art.png" class="d-block w-100" alt="Three young children of diverse backgrounds sitting at a rustic outdoor table, crafting with natural materials like leaves and pinecones.">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Adventure is Out There</h5>
+            <p>Creativity blooms when nature provides the palette.</p>
+          </div>
         </div>
+  
+        <!-- 3: Hands-on Gardening -->
+        <div class="carousel-item">
+          <img src="images/slide-hands-on.png" class="d-block w-100" alt="Campers plant vegetables together in a sunny garden bed.">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Learn by Doing</h5>
+            <p>From soil to supper — campers connect with the earth through organic gardening and sustainable food practices.</p>
+          </div>
+        </div>
+  
+        <!-- 4: Everyone Belongs Here -->
+        <div class="carousel-item">
+          <img src="images/slide-inclusion.png" class="d-block w-100" alt="Teens of diverse backgrounds, body types, and abilities working together on an outdoor camp project.">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Everyone Belongs Here</h5>
+            <p>Inclusive by design — welcoming all identities, abilities, and backgrounds.</p>
+          </div>
+        </div>
+  
+        <!-- 5: Nurture & Grow -->
+        <div class="carousel-item">
+          <img src="images/slide-animals.png" class="d-block w-100" alt="Children feeding goats and petting chickens in a garden">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Nurture & Grow</h5>
+            <p>Compassion starts with caring — for ourselves, for others, and for our planet.</p>
+          </div>
+        </div>
+  
       </div>
+  
+      <!-- Controls with ARIA -->
       <button class="carousel-control-prev" type="button" data-bs-target="#campCarousel" data-bs-slide="prev" aria-label="Previous slide">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       </button>
@@ -135,7 +179,7 @@
     </div>
   </section>
 
- <!-- FOOTER -->
+<!-- FOOTER -->
   <footer class="container-fluid footer-bg text-white">
     <div class="footer-inner">
   
@@ -151,11 +195,42 @@
   
       <!-- Right -->
       <div class="footer-right">
-        <a href="#" class="footer-contact">Contact</a>
+        <a href="#" class="footer-contact" data-bs-toggle="modal" data-bs-target="#emailModal">
+          <img src="images/email.png" alt="Email icon" width="60" height="60">
+        </a>
       </div>
   
     </div>
   </footer>
+
+  <!-- Email Modal -->
+<div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="emailModalLabel">Send Us a Message</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="emailName" class="form-label">Name</label>
+              <input type="text" class="form-control" id="emailName" required>
+            </div>
+            <div class="mb-3">
+              <label for="emailAddress" class="form-label">Email</label>
+              <input type="email" class="form-control" id="emailAddress" required>
+            </div>
+            <div class="mb-3">
+              <label for="emailMessage" class="form-label">Message</label>
+              <textarea class="form-control" id="emailMessage" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Social Links Modal -->
    <div class="modal fade" id="socialModal" tabindex="-1" aria-labelledby="socialModalLabel" aria-hidden="true">
@@ -166,10 +241,19 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <a href="https://instagram.com" target="_blank" class="d-block mb-2">Instagram</a>
-          <a href="https://facebook.com" target="_blank" class="d-block mb-2">Facebook</a>
-          <a href="https://youtube.com" target="_blank" class="d-block">YouTube</a>
-        </div>
+            <a href="https://instagram.com" target="_blank" class="d-block mb-2">
+              <i class="bi bi-instagram me-2" aria-hidden="true"></i>
+              Instagram
+            </a>
+            <a href="https://facebook.com" target="_blank" class="d-block mb-2">
+              <i class="bi bi-facebook me-2" aria-hidden="true"></i>
+              Facebook
+            </a>
+            <a href="https://youtube.com" target="_blank" class="d-block">
+              <i class="bi bi-youtube me-2" aria-hidden="true"></i>
+              YouTube
+            </a>
+          </div>
       </div>
     </div>
   </div>
