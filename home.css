@@ -69,7 +69,7 @@ aside h1 {
     }
   }
 
- /* Large screens (≥992px and <1200px): keep menu safely inside */
+ /* Large screens (≥992px and <1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .nav-vertical {
     bottom: calc(6px + 0.75rem);
@@ -78,12 +78,12 @@ aside h1 {
   .nav-vertical .nav-link { font-size: 1rem; }
 }
 
-/* XL screens (≥1200px and <1400px): a bit more breathing room */
+/* XL screens (≥1200px and <1400px) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .nav-vertical { bottom: calc(6px + 1.25rem); }
 }
 
-/* XXL screens (≥1400px): most breathing room */
+/* XXL screens (≥1400px) */
 @media (min-width: 1400px) {
   .nav-vertical { bottom: calc(6px + 2rem); }
 }
@@ -91,7 +91,7 @@ aside h1 {
 
 /* Mission section */
 .mission-values-section {
-  background-image: url('images/peachesBG.png'); /* adjust path if needed */
+  background-image: url('images/peachesBG.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -126,7 +126,7 @@ aside h1 {
 }
 
 .card-text-box {
-  background-color: rgba(201, 253, 6, 0.75);  /* Light green */
+  background-color: rgba(201, 253, 6, 0.75);
   padding: 1rem;
   border-radius: 0.5rem;
   margin-left: 2rem;
@@ -137,7 +137,7 @@ aside h1 {
 
 @media (max-width: 768px) {
   .card-inner {
-    flex-wrap: wrap;         /* Let contents wrap instead of switching to column */
+    flex-wrap: wrap;  /* Let contents wrap instead of switching to column */
     justify-content: center;
     align-items: flex-start;
   }
