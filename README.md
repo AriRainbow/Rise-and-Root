@@ -12,6 +12,7 @@ A responsive, accessible, and inclusive website for our nonprofit organization �
 - [Technologies Used](#technologies-used)
 - [Design & UI](#design--ui)
 - [Performance & Accessibility](#performance--accessibility)
+- [Implemented Project Components](#implemented-project-components)
 - [Future Ideas](#future-ideas)
 - [Credits](#credits)
 - [License](#license)
@@ -34,7 +35,7 @@ Built with **accessibility**, **responsiveness**, and **clarity** in mind, this 
 
 You can explore the current hosted version of the site here:  
 [**Rise & Root Collective (GitHub Pages)**](https://arirainbow.github.io/Rise-and-Root/)  
-_Alternatively, the site is also available via the Renewable Spirit domain for backup and continuity._
+_Alternatively, the site is also available via the Renewable Spirit domain for backup and continuity:_  
 [https://riseandroot.renewablespirit.com/](https://riseandroot.renewablespirit.com/)
 
 ---
@@ -61,12 +62,12 @@ This is only the beginning — the site was designed to grow alongside the organ
 
 ## 🛠 Technologies Used
 
-- HTML5, CSS3
-- Bootstrap 5
-- JavaScript (modular)
-- Custom CSS
-- SEO meta tags
-- Responsive image handling
+- HTML5, CSS3  
+- Bootstrap 5  
+- JavaScript (modular)  
+- Custom CSS  
+- SEO meta tags  
+- Responsive image handling  
 
 ---
 
@@ -75,22 +76,23 @@ This is only the beginning — the site was designed to grow alongside the organ
 The website’s design was crafted to reflect the mission of Rise & Root Collective: grounded, vibrant, and inclusive. The interface is built to be both functional and emotionally resonant for a diverse audience.
 
 ### Branding & Style
+
 - **Custom Color Scheme:** Earthy greens and vibrant accents align with the camp’s natural, welcoming feel.
 - **Typography:** Combines the friendly, organic look of Yellowtail (accent headings) with the legible Sunborn font for body content.
 - **Imagery:** Background images (like peaches and forests) reinforce the outdoor theme and emotional connection to nature.
 
 ### Layout & Structure
+
 - **Two-Column Responsive Cards:** Used to clearly present mission, vision, and values on the homepage.
 - **Full-Width Header and Footer:** Create a polished, professional look while reinforcing visual identity.
 - **Mobile-First Approach:** Ensures ease of use on all screen sizes with clear navigation and adaptable content blocks.
 - **Custom “Under Construction” Pages:** Feature full-screen background with preserved menu access to maintain site usability during updates.
 
 ### Accessibility
+
 - **High Contrast & Readable Fonts:** Designed to support visitors with low vision or reading challenges.
 - **Navigation Consistency:** Menus remain accessible across all pages, including those still under development.
 - **Keyboard-Friendly Design:** Bootstrap and semantic HTML ensure compatibility with assistive technologies.
-
-The site balances modern web standards with a unique personality that reflects Rise & Root’s core values.
 
 ---
 
@@ -99,6 +101,7 @@ The site balances modern web standards with a unique personality that reflects R
 Rise & Root Collective’s website prioritizes accessibility and user experience, ensuring it’s usable by as many people as possible while remaining fast and responsive.
 
 ### Performance
+
 - **Balanced Image Handling:** Images were carefully selected and sized for reasonable quality and performance, but full optimization (compression and modern formats like SVG/WebP) is planned for future iterations.
 - **Script Management:** JavaScript is deferred where applicable to reduce render-blocking and improve load times.
 - **Responsive Layout:** Built mobile-first using Bootstrap’s grid system and custom CSS to adapt seamlessly across screen sizes.
@@ -106,6 +109,7 @@ Rise & Root Collective’s website prioritizes accessibility and user experience
 - **Scalable Infrastructure:** Architecture supports integration with a CDN and Redis caching for future performance scaling.
 
 ### Accessibility
+
 - **Lighthouse Accessibility Score: 95+** ✅
 - **Semantic HTML:** Proper use of `<header>`, `<nav>`, `<main>`, and ARIA-friendly elements improves screen reader compatibility.
 - **Color Contrast:** Custom brand colors were tested to meet contrast guidelines for legibility, including overlays on background images.
@@ -116,31 +120,75 @@ This solid foundation prepares the site for continued enhancements, including SV
 
 ---
 
+## ✅ Implemented Project Components
+
+This project includes the following components, going beyond the minimum required:
+
+- **Responsive UI**  
+  Mobile-first layout using Bootstrap and custom CSS ensures optimal display across desktops, tablets, and smartphones.
+
+- **CSS Framework (Bootstrap)**  
+  Utilized Bootstrap 5 for layout structuring, navbars, buttons, and grid responsiveness.
+
+- **Forms**  
+  Accessible and styled form for Board Member interest submissions with semantic HTML and fallbacks.
+
+- **JavaScript Functionality**  
+  External JavaScript file powers a dynamic API feature that fetches and displays Oklahoma-native plants.
+
+- **Third-party API Integration**  
+  Uses the [Trefle API](https://trefle.io) to dynamically display native Oklahoma plant species with fallback image support.
+
+- **Web Hosting**  
+  Hosted on both GitHub Pages and a custom domain under Renewable Spirit for stability, professionalism, and bonus project credit.
+
+- **Accessibility**  
+  Lighthouse Accessibility Score: **100%**. Semantic elements, skip-to-content logic, color contrast, focus indicators, and keyboard-friendly navigation were all considered.
+
+- **SEO (Search Engine Optimization)**  
+  Implemented descriptive page titles, meta tags, alt attributes, and semantic markup for better discoverability.
+
+- **Performance Considerations**  
+  Deferred scripts, image compression, and planned use of CDN and Redis for future optimization.
+
+- **Fallback Systems**  
+  Graceful error handling and image fallbacks are in place to ensure robustness in case of failed API calls.
+
+- **Modular & Scalable Design**  
+  Project is organized to support future scaling, including additional pages, CMS conversion, and full year-round program expansions.
+
+---
+
 ## 🚀 Future Ideas
 
 As Rise & Root Collective grows, so will its website and digital offerings. Here are some ideas and plans to expand functionality, accessibility, and reach:
 
 ### 🌱 Content & Educational Features
+
 - **Seasonal Program Updates:** Build a simple backend or CMS to update seasonal camp offerings and events without editing code.
 - **Interactive Curriculum:** Include downloadable or interactive educational materials for at-home learning and future unschool integration.
 - **Year-Round Unschooling Hub:** Expand the site into a nature-based unschooling portal with activity ideas, lesson plans, and parent resources.
 
 ### 🛠️ Technical Improvements
+
 - **Image Optimization:** Convert all compatible image assets to SVG for faster load times and crisp scaling across devices.
 - **CDN Integration:** Use a Content Delivery Network to serve images and scripts faster and reduce server load.
 - **Redis Caching:** Explore using Redis for caching plant API responses or future database-driven content.
 
 ### 🧠 User Experience & UI
+
 - **Dynamic Content:** Add animation, hover effects, or parallax scrolling to increase interactivity.
 - **Accessibility Enhancements:** Improve focus states and implement skip-navigation links for better keyboard and screen reader support.
 - **Gamified Learning:** Introduce mini eco-games or quizzes about sustainability and native plants.
 
 ### 🔧 Infrastructure & Admin Tools
+
 - **CMS or Multi-Page SPA:** Convert to a multi-page Single Page Application (SPA) or integrate a CMS for easier updates.
 - **Custom Email Form Handling:** Replace current mailto setup with a proper email backend.
 - **Analytics & SEO:** Add Google Analytics and SEO schema markup for better search visibility and user insights.
 
 ### 💬 Community & Involvement
+
 - **Volunteer Dashboard:** Create a private login area for board members or counselors-in-training (CITs) to access resources and schedules.
 - **Testimonial Section:** Let past participants or parents share their experiences.
 - **Newsletter Signup:** Add an email capture form to keep families informed about programs and updates.
@@ -149,13 +197,11 @@ As Rise & Root Collective grows, so will its website and digital offerings. Here
 
 ## 🙌 Credits
 
-- Ari Murphy – Developer & Designer
-- Rise & Root Collective – Project Vision
+- Ari Murphy – Developer & Designer  
+- Rise & Root Collective – Project Vision  
 
 ---
 
 ## 📄 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
