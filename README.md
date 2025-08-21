@@ -32,6 +32,9 @@ Built with **accessibility**, **responsiveness**, and **clarity** in mind, this 
 
 ## 🔗 Live Site
 
+You can explore the current hosted version of the site here:  
+[**Rise & Root Collective (GitHub Pages)**](https://arirainbow.github.io/Rise-and-Root/)  
+_Alternatively, the site is also available via the Renewable Spirit domain for backup and continuity._
 [https://riseandroot.renewablespirit.com/](https://riseandroot.renewablespirit.com/)
 
 ---
