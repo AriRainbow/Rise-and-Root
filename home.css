@@ -173,7 +173,7 @@ aside h1 {
   .about-image {
     position: relative;
     height: 420px;
-    background: url('images/FoodForest.jpeg') center/cover no-repeat;
+    background: url('images/FoodForest.svg') center/cover no-repeat;
     isolation: isolate;  
   }
   
