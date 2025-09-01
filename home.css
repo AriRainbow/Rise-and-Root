@@ -167,6 +167,7 @@ aside h1 {
 .about-section {
     margin-top: 0;
     position: relative;
+    background-color: black;
   }
   
   /* Image area holds the photo + overlay only */
