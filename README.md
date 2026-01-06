@@ -7,6 +7,8 @@ A responsive, accessible, and inclusive website for our nonprofit organization �
 ## 📋 Table of Contents
 
 - [About the Project](#about-the-project)
+- [Project Structure]
+(#project-structure)
 - [Live Site](#live-site)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -30,6 +32,16 @@ This initial site serves as both an introduction and a foundation. It showcases 
 Built with **accessibility**, **responsiveness**, and **clarity** in mind, this website invites visitors to explore, get involved, and grow with us.
 
 ---
+
+## Project Structure
+
+- `legacy-v1/` – Original static HTML/CSS version of the Rise & Root Collective site  
+  Built for an early coursework project and kept as a stable baseline.
+
+- (Upcoming) React-based version – This repository will also host the long-term
+  official site built with React, improved accessibility, performance, and scalability.
+
+  ---
 
 ## 🔗 Live Site
 
