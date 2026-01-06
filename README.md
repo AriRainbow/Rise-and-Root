@@ -7,8 +7,7 @@ A responsive, accessible, and inclusive website for our nonprofit organization â
 ## ðŸ“‹ Table of Contents
 
 - [About the Project](#about-the-project)
-- [Project Structure]
-(#project-structure)
+- [Project Structure](#project-structure)
 - [Live Site](#live-site)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
