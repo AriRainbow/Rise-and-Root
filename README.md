@@ -117,7 +117,7 @@ Rise & Root Collective’s website prioritizes accessibility and user experience
 - **Script Management:** JavaScript is deferred where applicable to reduce render-blocking and improve load times.
 - **Responsive Layout:** Built mobile-first using Bootstrap’s grid system and custom CSS to adapt seamlessly across screen sizes.
 - **Hosting via Renewable Spirit:** Deployed under the Renewable Spirit domain, improving availability and earning bonus project credit.
-- **Scalable Infrastructure:** Architecture supports integration with a CDN and Redis caching for future performance scaling.
+- **Scalable Architecture:** Project structure supports future integration with a CDN and server-side caching solutions as the platform evolves.
 
 ### Accessibility
 
