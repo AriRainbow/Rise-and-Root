@@ -40,7 +40,7 @@ Built with **accessibility**, **responsiveness**, and **clarity** in mind, this 
 - (Upcoming) React-based version – This repository will also host the long-term
   official site built with React, improved accessibility, performance, and scalability.
 
-  ---
+---
 
 ## 🔗 Live Site
 
