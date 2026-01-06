@@ -4,7 +4,7 @@ A responsive, accessible, and inclusive website for our nonprofit organization �
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [About the Project](#about-the-project)
 - [Project Structure](#project-structure)
@@ -20,7 +20,7 @@ A responsive, accessible, and inclusive website for our nonprofit organization �
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 The **Rise & Root Collective** website is the official online home of our inclusive, nature-based nonprofit organization. This project was developed as part of a web development course, but its purpose extends far beyond the classroom.
 
@@ -42,7 +42,7 @@ Built with **accessibility**, **responsiveness**, and **clarity** in mind, this 
 
 ---
 
-## 🔗 Live Site
+## Live Site
 
 You can explore the current hosted version of the site here:  
 [**Rise & Root Collective (GitHub Pages)**](https://arirainbow.github.io/Rise-and-Root/)  
@@ -51,7 +51,7 @@ _Alternatively, the site is also available via the Renewable Spirit domain for b
 
 ---
 
-## 🌟 Features
+## Features
 
 This website was built with care to serve both visitors and the organization’s long-term needs. Some of its core features include:
 
@@ -71,7 +71,7 @@ This is only the beginning — the site was designed to grow alongside the organ
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - HTML5, CSS3  
 - Bootstrap 5  
@@ -82,7 +82,7 @@ This is only the beginning — the site was designed to grow alongside the organ
 
 ---
 
-## 🎨 Design and UI
+## Design and UI
 
 The website’s design was crafted to reflect the mission of Rise & Root Collective: grounded, vibrant, and inclusive. The interface is built to be both functional and emotionally resonant for a diverse audience.
 
@@ -107,7 +107,7 @@ The website’s design was crafted to reflect the mission of Rise & Root Collect
 
 ---
 
-## ♿ Performance and Accessibility
+## Performance and Accessibility
 
 Rise & Root Collective’s website prioritizes accessibility and user experience, ensuring it’s usable by as many people as possible while remaining fast and responsive.
 
@@ -170,7 +170,7 @@ This project includes the following components, going beyond the minimum require
 
 ---
 
-## 🚀 Future Ideas
+## Future Ideas
 
 As Rise & Root Collective grows, so will its website and digital offerings. Here are some ideas and plans to expand functionality, accessibility, and reach:
 
@@ -206,13 +206,13 @@ As Rise & Root Collective grows, so will its website and digital offerings. Here
 
 ---
 
-## 🙌 Credits
+## Credits
 
 - Ari Murphy – Developer & Designer  
 - Rise & Root Collective – Project Vision  
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
