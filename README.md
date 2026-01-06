@@ -1,4 +1,4 @@
-# 🌱 Rise & Root Collective Website
+# Rise & Root Collective Website
 
 A responsive, accessible, and inclusive website for our nonprofit organization — Rise & Root Collective — dedicated to providing free nature-based education and empowerment programs for youth.
 
@@ -121,7 +121,7 @@ Rise & Root Collective’s website prioritizes accessibility and user experience
 
 ### Accessibility
 
-- **Lighthouse Accessibility Score: 95+** ✅
+- **Lighthouse Accessibility Score: 95+**
 - **Semantic HTML:** Proper use of `<header>`, `<nav>`, `<main>`, and ARIA-friendly elements improves screen reader compatibility.
 - **Color Contrast:** Custom brand colors were tested to meet contrast guidelines for legibility, including overlays on background images.
 - **Keyboard Navigation:** Menus and buttons are accessible using keyboard input with visible focus styles.
@@ -174,31 +174,31 @@ This project includes the following components, going beyond the minimum require
 
 As Rise & Root Collective grows, so will its website and digital offerings. Here are some ideas and plans to expand functionality, accessibility, and reach:
 
-### 🌱 Content & Educational Features
+### Content & Educational Features
 
 - **Seasonal Program Updates:** Build a simple backend or CMS to update seasonal camp offerings and events without editing code.
 - **Interactive Curriculum:** Include downloadable or interactive educational materials for at-home learning and future unschool integration.
 - **Year-Round Unschooling Hub:** Expand the site into a nature-based unschooling portal with activity ideas, lesson plans, and parent resources.
 
-### 🛠️ Technical Improvements
+### Technical Improvements
 
 - **Image Optimization:** Convert all compatible image assets to SVG for faster load times and crisp scaling across devices.
 - **CDN Integration:** Use a Content Delivery Network to serve images and scripts faster and reduce server load.
 - **Redis Caching:** Explore using Redis for caching plant API responses or future database-driven content.
 
-### 🧠 User Experience & UI
+### User Experience & UI
 
 - **Dynamic Content:** Add animation, hover effects, or parallax scrolling to increase interactivity.
 - **Accessibility Enhancements:** Improve focus states and implement skip-navigation links for better keyboard and screen reader support.
 - **Gamified Learning:** Introduce mini eco-games or quizzes about sustainability and native plants.
 
-### 🔧 Infrastructure & Admin Tools
+### Infrastructure & Admin Tools
 
 - **CMS or Multi-Page SPA:** Convert to a multi-page Single Page Application (SPA) or integrate a CMS for easier updates.
 - **Custom Email Form Handling:** Replace current mailto setup with a proper email backend.
 - **Analytics & SEO:** Add Google Analytics and SEO schema markup for better search visibility and user insights.
 
-### 💬 Community & Involvement
+### Community & Involvement
 
 - **Volunteer Dashboard:** Create a private login area for board members or counselors-in-training (CITs) to access resources and schedules.
 - **Testimonial Section:** Let past participants or parents share their experiences.
