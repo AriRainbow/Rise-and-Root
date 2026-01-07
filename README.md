@@ -35,7 +35,7 @@ Built with **accessibility**, **responsiveness**, and **clarity** in mind, this 
 ## Project Structure
 
 - `legacy-v1/` – Original static HTML/CSS version of the Rise & Root Collective site  
-  Built for an early coursework project and kept as a stable baseline.
+  Built for an early coursework project and preserved as a functional baseline while the site transitions to a React-based architecture.
 
 - (Upcoming) React-based version – This repository will also host the long-term
   official site built with React, improved accessibility, performance, and scalability.
