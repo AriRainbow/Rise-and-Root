@@ -1,7 +1,3 @@
-![Accessibility](https://img.shields.io/badge/Accessibility-95%2B-brightgreen)
-![Responsive](https://img.shields.io/badge/Responsive-Yes-blue)
-![Built%20With-Bootstrap-purple)
-
 # Rise & Root Collective Website
 
 A responsive, accessible, and inclusive website for our nonprofit organization — Rise & Root Collective — dedicated to providing free nature-based education and empowerment programs for youth.
